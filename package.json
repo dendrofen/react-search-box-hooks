@@ -1,0 +1,82 @@
+{
+  "name": "react-search-box-hooks",
+  "version": "0.2.4",
+  "private": false,
+  "keywords": [
+    "react",
+    "react-components",
+    "components",
+    "components-develop",
+    "search-box",
+    "react-hooks",
+    "react-filter-box",
+    "react-search-box",
+    "custom-search-box",
+    "custom-filter-box",
+    "search-box-api",
+    "search-box-data",
+    "search-list-api",
+    "search-list-hooks",
+    "search-box-hooks",
+    "search-hooks",
+    "react-search",
+    "react-development",
+    "react-custom",
+    "react-ui",
+    "react-logic",
+    "component-part"
+  ],
+  "description": "React hooks for constructing search boxes with filters, using callbacks",
+  "author": "dendrofen",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dendrofen/react-search-box-hooks.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-react": "^7.18.6",
+    "@chakra-ui/react": "^2.4.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@types/react": "^18.0.27",
+    "babel-preset-minify": "^0.5.2",
+    "framer-motion": "^7.6.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir build --copy-files"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
