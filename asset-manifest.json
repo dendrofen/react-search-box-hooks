@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/react-search-box-hooks/static/js/main.16d6b517.js",
+    "main.js": "/react-search-box-hooks/static/js/main.b1775de1.js",
     "static/css/913.bc96fd89.chunk.css": "/react-search-box-hooks/static/css/913.bc96fd89.chunk.css",
-    "static/js/913.bacf24f8.chunk.js": "/react-search-box-hooks/static/js/913.bacf24f8.chunk.js",
+    "static/js/913.396d336d.chunk.js": "/react-search-box-hooks/static/js/913.396d336d.chunk.js",
     "static/js/241.05db12af.chunk.js": "/react-search-box-hooks/static/js/241.05db12af.chunk.js",
     "index.html": "/react-search-box-hooks/index.html",
-    "main.16d6b517.js.map": "/react-search-box-hooks/static/js/main.16d6b517.js.map",
+    "main.b1775de1.js.map": "/react-search-box-hooks/static/js/main.b1775de1.js.map",
     "913.bc96fd89.chunk.css.map": "/react-search-box-hooks/static/css/913.bc96fd89.chunk.css.map",
-    "913.bacf24f8.chunk.js.map": "/react-search-box-hooks/static/js/913.bacf24f8.chunk.js.map",
+    "913.396d336d.chunk.js.map": "/react-search-box-hooks/static/js/913.396d336d.chunk.js.map",
     "241.05db12af.chunk.js.map": "/react-search-box-hooks/static/js/241.05db12af.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.16d6b517.js"
+    "static/js/main.b1775de1.js"
   ]
 }
