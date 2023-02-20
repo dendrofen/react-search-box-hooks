@@ -1,6 +1,6 @@
 {
   "name": "react-search-box-hooks",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "private": false,
   "keywords": [
     "react",
@@ -28,9 +28,10 @@
   ],
   "description": "React hooks for constructing search boxes with filters, using callbacks",
   "author": "dendrofen",
-  "main": "build/index.js",
+  "license": "MIT",
+  "main": "dist/index.js",
   "files": [
-    "build",
+    "dist",
     "README.md",
     "LICENSE"
   ],
@@ -38,9 +39,12 @@
     "type": "git",
     "url": "git+https://github.com/dendrofen/react-search-box-hooks.git"
   },
-  "license": "MIT",
-  "peerDependencies": {
-    "react": "^18.2.0"
+  "homepage": "https://dendrofen.github.io/react-search-box-hooks",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
@@ -52,14 +56,11 @@
     "@types/react": "^18.0.27",
     "babel-preset-minify": "^0.5.2",
     "framer-motion": "^7.6.19",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-scripts": "5.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir build --copy-files"
   },
   "eslintConfig": {
     "extends": [
