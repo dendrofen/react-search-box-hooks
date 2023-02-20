@@ -1,5 +1,9 @@
 ![alt text](./readme/preview.jpg)
 
+[![Build Size](https://img.shields.io/bundlephobia/minzip/react-search-box-hooks?label=bundle%20size&style=flat&colorA=000000&colorB=000000)](https://bundlephobia.com/result?p=react-search-box-hooks)
+[![Version](https://img.shields.io/npm/v/react-search-box-hooks?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/react-search-box-hooks)
+[![Downloads](https://img.shields.io/npm/dt/react-search-box-hooks.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/react-search-box-hooks)
+
 # React Search Box Hooks
 
 This library provides a set of React hooks to construct search boxes for your application.
