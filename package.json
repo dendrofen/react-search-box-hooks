@@ -1,6 +1,6 @@
 {
   "name": "react-search-box-hooks",
-  "version": "0.2.5-beta",
+  "version": "0.2.6",
   "private": false,
   "keywords": [
     "react",
@@ -31,9 +31,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
+    "dist"
   ],
   "repository": {
     "type": "git",
