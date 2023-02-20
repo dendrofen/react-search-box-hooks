@@ -50,7 +50,7 @@ export default function SearchBoxDomains() {
             let items, totalItems;
 
             if (params.query) {
-                [items, totalItems] = await fetch(`https://api.domainsdb.info/v1/domains/search?domain=${params.query}`)
+                [items, totalItems] = await fetch(`https://proxy.cors.sh/http://api.domainsdb.info/v1/domains/search?domain=${params.query}`)
                     .then(res => res.json())
                     .then(res => [res.domains || [], res.total])
                     .catch(() => [])
